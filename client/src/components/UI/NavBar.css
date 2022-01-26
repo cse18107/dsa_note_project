@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
 .navbar_body{
     width: 100%;
     height: 100px;
-    background-color: greenyellow;
+    background-color: #8843F2;
 }
 .navbar_container{
     width: 100%;
     height: 100%;
-    background-color: rgb(224, 255, 47);
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,5 +15,72 @@
 .navbar_content{
     width: 80%;
     height: 90%;
-    background-color: hotpink;
+
+    display: flex;
+    justify-content: space-between;
+}
+.navbar_content--left{
+    width: 30%;
+    height: 100%;
+}
+.navbar_content--left_content{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar_logo{
+    width: 48px;
+    margin-right: 10px;
+}
+.navbar_content--left_content-logo{
+    font-size: 3rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-family: 'Balsamiq Sans', cursive;
+    align-items: center;
+    color: #F9D371;
+}
+.navbar_content--right{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_content--right_content{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home_page{
+    font-size: 1.4rem;
+    color: #F47340;
+    text-decoration: none;
+    padding:15px;
+    border-radius: 5px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.add_page{
+    font-size: 1.4rem;
+    color: #F47340;
+    text-decoration: none;
+    padding:15px;
+    border-radius: 5px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.message_page{
+    font-size: 1.4rem;
+    color: #F47340;
+    padding:15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.active{
+    background-color: rgba(205, 92, 92, 0.568);
 }

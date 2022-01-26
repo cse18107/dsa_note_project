@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+
+.homepage_body{
+    width: 100%;
+    padding-top: 100px;
+    /* background-color: rgb(255, 144, 144); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homepage_container{
+    width: 80%;
+    /* background-color: indigo; */
+    height: 20px;
+}
+.homepage_content{
+    width: 100%;
+}
+.content_name{
+    display: flex;
+    background-color: #8943f2d2;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.5rem;
+}
+.id{
+    width: 10%;
+}
+.name{
+    width:50%;
+}
+.category{
+    width: 20%;
+}
+.status{
+    width: 10%;
+}
+.solution{
+    width: 10%;
+}
+.page_content--name{
+    display: flex;
+    background-color: #f47340ed;
+    color: #F9D371;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #f64600ed;
+}
+.row{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
